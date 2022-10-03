@@ -4,9 +4,11 @@ body {
     padding-right: 15px;
     color: white;
 }
+
 .left-offset {
     offset-before: 16px;
 }
+
 .wd-input-field-search {
     background-color: darkgrey;
     color: white;
@@ -14,7 +16,7 @@ body {
     width: 100%;
 }
 .wd-settings-link {
-
+    float: right;
 }
 
 .wd-tab-view {
@@ -63,14 +65,22 @@ body {
     color: darkgrey;
 }
 .wd-suggested-posts-noauthor {
-    border-bottom-width: thin;
-    border-color: rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
 }
 .wd-suggested-posts-author {
-    border-bottom-width: thin;
-    border-color: rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
 }
 .wd-suggested-posts-author-noimg {
-    border-bottom-width: thin;
-    border-color: rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
 }
+.wd-main-header {
+    border: 1px solid rgb(47, 51, 54);
+}
+.wd-settings-mage {
+    height: 10px;
+    width: 10px;
+}
+.wd-main-first-line {
+    display: flex;
+}
+
