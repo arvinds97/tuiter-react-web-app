@@ -43,6 +43,7 @@ body {
 }
 .wd-title {
     color: white;
+    width: 100%;
 }
 .wd-author {
     color: white;
@@ -52,6 +53,24 @@ body {
     width: 100px;
     height: 100px;
     padding-right: 16px;
-    border-radius: 50px;
-}
+    border-radius: 25px;
 
+}
+.wd-post-flex {
+    display: flex;
+}
+.wd-line-break {
+    color: darkgrey;
+}
+.wd-suggested-posts-noauthor {
+    border-bottom-width: thin;
+    border-color: rgb(47, 51, 54);
+}
+.wd-suggested-posts-author {
+    border-bottom-width: thin;
+    border-color: rgb(47, 51, 54);
+}
+.wd-suggested-posts-author-noimg {
+    border-bottom-width: thin;
+    border-color: rgb(47, 51, 54);
+}
