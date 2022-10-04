@@ -140,10 +140,28 @@ body {
 }
 .wd-tab-icons-inner {
     display: flex;
+    padding-left: 100px;
 }
 .wd-bookmarks-item {
     border:1px solid darkgrey;
 }
 .wd-bookmarks-desc {
     border:1px solid darkgrey;
+}
+.wd-like {
+    color: red;
+}
+.wd-circular-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
 }
