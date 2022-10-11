@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+    color: white;
+}
+.wd-padding-item {
+    padding-right: 10%;
+}
+.wd-padding-button-top {
+    padding-top: 20px;
+}
+.wd-padding-bottom {
+    padding-bottom: 10%;
+}
+.wd-border-radius {
+    border-radius: 25px;
+}
+.wd-background-white {
+    background-color: white;
+}
+.wd-container-padding-top {
+    padding-top: 1%;
+}
+.wd-font-13 {
+    font-size: 13px;
+}
+.wd-font-bold {
+    font-weight: bold;
+}
+
