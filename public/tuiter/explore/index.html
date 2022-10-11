@@ -10,22 +10,267 @@
           rel="stylesheet"/>
 </head>
 <body>
-<div class="container">
-<div id="tuiter-explore-navigation-left" class="col-lg-2">
-    <ul class="list-group">
-        <li class="list-group-item"><i class="fa-brands fa-twitter"></i></li>
-        <li class="list-group-item"><i class="fa-sharp fa-solid fa-house-chimney"></i>Home</li>
-        <li class="list-group-item active"><i class="fa-regular fa-hashtag"></i>Explore</li>
-        <li class="list-group-item"><i class="fa-solid fa-bell"></i>Notifications</li>
-        <li class="list-group-item"><i class="fa-solid fa-envelope"></i>Messages</li>
-        <li class="list-group-item"><i class="fa-solid fa-bookmark"></i>Bookmarks</li>
-        <li class="list-group-item"><i class="fa-regular fa-list"></i>Lists</li>
-        <li class="list-group-item"><i class="fa-solid fa-user"></i>Profile</li>
-        <li class="list-group-item"><i class="fa-solid fa-circle-ellipsis"></i>More</li>
-    </ul>
-</div>
-<div id="tuiter-explore-feed-center"></div>
-<div id="tuiter-explore-follow-left"></div>
+<div class="container wd-container-padding-top">
+    <div class="row">
+        <div id="tuiter-explore-navigation-left" class="col-lg-2 flex-container-flex-start">
+            <ul class="list-group wd-padding-bottom">
+                <li class="list-group-item">
+                    <i class="fab fa-twitter wd-padding-item"></i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-home wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Home</span>
+                </li>
+                <li class="list-group-item active">
+                    <i class="fas fa-hashtag wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Explore</span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-bell wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Notifications</span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-envelope wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Messages</span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-bookmark wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Bookmarks</span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-list wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Lists</span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-user wd-padding-item"></i>
+                    <span class="d-none .d-md-block">Profile</span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-ellipsis-h wd-padding-item"></i>
+                    <span class="d-none .d-md-block">More</span>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-primary col-12 wd-padding-button-top wd-border-radius">Tuit</button>
+        </div>
+        <div id="tuiter-explore-feed-center" class="col-lg-7 flex-container-flex-center">
+            <div class="d-flex">
+                <div class="input-group mb-3 wd-border-radius wd-background-white">
+                    <span class="input-group-text wd-background-white"><i class="fas fa-search wd-background-white"></i></span>
+                    <input type="text" class="form-control wd-border-radius wd-background-white">
+                </div>
+                <div id="settings-icon" style="padding-top: 5px;padding-left: 1%">
+                    <link href="settings.html" style="color:dodgerblue"><i class="fas fa-cog"></i><link>
+                </div>
+            </div>
+            <div class="wd-tab">
+                 <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card" style="padding-top: 1%">
+                <img src="download.jfif"
+                     class="card-img-top" alt="..." width="100%" height="350rem">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="row">
+                                    <span class="wd-font-13" style="color: darkgray">Web Development</span>
+                                </div>
+                                <div class="row">
+                                <span class="wd-font-13 wd-font-bold">ReactJS<i class="fas fa-check-circle" style="padding-left: 1%"></i>
+                                    <span style="font-weight: normal">
+                                        -2h
+                                    </span>
+                                </span>
+                                    <span class="wd-font-13 wd-font-bold">React.js is a component based front end library that makes it very easy to build Single
+                                Page Applications or SPAs</span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="react.png" width="70" height="60" style="padding-top: 10%;padding-left: 20%">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="row">
+                                <span class="wd-font-13 wd-font-bold">Javascript<i class="fas fa-check-circle" style="padding-left: 1%"></i>
+                                    <span style="font-weight: normal">
+                                        -2h
+                                    </span>
+                                </span>
+                                    <span class="wd-font-13 wd-font-bold">Javascript is a programming language that can run on browsers as well as desktops</span>
+                                </div>
+                                <div class="row">
+                                    <span class="wd-font-13" style="color: darkgray">123K Tuits</span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="js.png" width="70" height="60"  style="padding-top: 10%;padding-left: 20%">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="row">
+                                    <span class="wd-font-13" style="color: darkgray">Web Development</span>
+                                </div>
+                                <div class="row">
+                                <span class="wd-font-13 wd-font-bold">jQuery</i>
+                                </span>
+                                </div>
+                                <div class="row">
+                                <span class="wd-font-13" style="font-weight: normal;color: darkgray">123K Tuits</i>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="jquery.png" width="70" height="60"  style="padding-top: 10%;padding-left: 20%">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="row">
+                                    <span class="wd-font-13" style="color: darkgray">Web Development</span>
+                                </div>
+                                <div class="row">
+                                <span class="wd-font-13 wd-font-bold">NodeJS<i class="fas fa-check-circle" style="padding-left: 1%"></i>
+                                    <span style="font-weight: normal">
+                                        -2h
+                                    </span>
+                                </span>
+                                </div>
+                                <div class="row">
+                                <span class="wd-font-13" style="font-weight: normal;color: darkgray">
+                                    123K Tuits
+                                </span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="nodejs.png" width="70" height="60"  style="padding-top: 10%;padding-left: 20%">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="tuiter-explore-follow-left" class="col-lg-3 flex-container-flex-end">
+            <ul class="list-group">
+                <li class="list-group-item wd-font-bold">Who to follow</li>
+                <li class="list-group-item">
+                    <div id="follow-item" class="row">
+                        <div class="col-2">
+                            <img src="java.jpg" width="50" height="50" class="wd-border-radius">
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <span class="wd-font-13 wd-font-bold">Java<i class="fas fa-check-circle" style="padding-left: 1%"></i></span>
+                            </div>
+                            <div class="row">
+                                <span class="wd-font-13">@Java</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div id="follow-item" class="row">
+                        <div class="col-2">
+                            <img src="space-relativity.png" width="50" height="50" class="wd-border-radius">
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <span class="wd-font-13 wd-font-bold">Relativity Space<i class="fas fa-check-circle" style="padding-left: 1%"></i></span>
+                            </div>
+                            <div class="row">
+                                <span class="wd-font-13">@relativityspace</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div id="follow-item" class="row">
+                        <div class="col-2">
+                            <img src="virgin.png" width="50" height="50" class="wd-border-radius">
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <span class="wd-font-13 wd-font-bold">Virgin Galactic<i class="fas fa-check-circle" style="padding-left: 1%"></i></span>
+                            </div>
+                            <div class="row">
+                                <span class="wd-font-13">@virgingalactic</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div id="follow-item" class="row">
+                        <div class="col-2">
+                            <img src="nasa.png" width="50" height="50" class="wd-border-radius">
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <span class="wd-font-13 wd-font-bold">NASA<i class="fas fa-check-circle" style="padding-left: 1%"></i></span>
+                            </div>
+                            <div class="row">
+                                <span class="wd-font-13">@NASA</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div id="follow-item" class="row">
+                        <div class="col-2">
+                            <img src="tesla.png" width="50" height="50" class="wd-border-radius">
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <span class="wd-font-13 wd-font-bold">Tesla<i class="fas fa-check-circle" style="padding-left: 1%"></i></span>
+                            </div>
+                            <div class="row">
+                                <span class="wd-font-13">@Tesla</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 </body>
 </html>
