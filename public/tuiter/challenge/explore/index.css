@@ -26,4 +26,35 @@ body {
 .wd-font-bold {
     font-weight: bold;
 }
+.wd-text-white {
+    color: white;
+}
+.wd-search-box-dark-mode {
+    background: rgb(32, 32, 32);
+    border-radius: 18px;
+    height: 35px;
+    width: 100%;
+    border-width: 0px;
+    color: white;
+}
+.wd-center-icons i {
+    position: absolute;
+}
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+}
+.wd-search-box {
+    height: 35px;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 18px;
+}
+.wd-settings-icon-dark-mode {
+    color: white;
+}
+.wd-input-field {
+    padding-left: 30px;
+    text-align: left;
+}
 

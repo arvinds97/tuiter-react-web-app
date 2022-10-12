@@ -1,3 +1,7 @@
+.wd-input-field {
+    padding-left: 30px;
+    text-align: left;
+}
 .wd-padding-item {
     padding-right: 10%;
 }
@@ -21,5 +25,21 @@
 }
 .wd-font-bold {
     font-weight: bold;
+}
+.wd-center-icons i {
+    position: absolute;
+}
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+}
+.wd-search-box {
+    height: 35px;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 18px;
+}
+.wd-settings-icon-dark-mode {
+    color: white;
 }
 

@@ -12,49 +12,90 @@
 <body class="bg-black" style="color: white">
 <div class="container wd-container-padding-top bg-black">
     <div class="row">
-        <div id="tuiter-explore-navigation-left" class="col-auto flex-container-flex-start bg-black">
-            <ul class="list-group wd-padding-bottom bg-black">
-                <li class="list-group-item bg-black">
-                    <i class="fa-solid fa-t wd-padding-item" style="color: white"></i>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-home wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Home</span>
-                </li>
-                <li class="list-group-item active bg-black">
-                    <i class="fas fa-hashtag wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Explore</span>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-bell wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Notifications</span>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-envelope wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Messages</span>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-bookmark wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Bookmarks</span>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-list wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Lists</span>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-user wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">Profile</span>
-                </li>
-                <li class="list-group-item bg-black">
-                    <i class="fas fa-ellipsis-h wd-padding-item" style="color: white"></i><span class="d-none d-xl-block" style="color: white">More</span>
-                </li>
-            </ul>
-            <button type="button" class="btn btn-primary col-12 wd-padding-button-top wd-border-radius rounded-pill">Tuit</button>
+        <div id="tuiter-explore-navigation-left" class="bg-black col-3 col-lg-2 col-xl-2">
+            <div class="list-group d-none d-lg-block">
+                <a href="#" class="bg-black list-group-item list-group-item-action list-group-item-info  wd-text-white">
+                    <i class="fab fa-twitter fa-2x wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item-info bg-black list-group-item list-group-item-action wd-text-white">
+                    <i class="fa fa-home wd-text-white"></i>
+                    <span class="wd-text-white">Home </span>
+                </a>
+                <a href="#" class="list-group-item bg-black list-group-item-action list-group-item-info wd-text-white">
+                    <i class="fa fa-hashtag wd-text-white"></i>
+                    <span class="wd-text-white"> Explore</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-black list-group-item-info wd-text-white ">
+                    <i class="fa fa-bell wd-text-white"></i>
+                    <span class="wd-text-white">Notifications </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-info bg-black list-group-item-action wd-text-white">
+                    <i class="fa fa-envelope wd-text-white"></i>
+                    <span class="wd-text-white">Messages </span>
+                </a>
+                <a href="#" class="list-group-item-action list-group-item list-group-item-info bg-black wd-text-white">
+                    <i class="fa fa-bookmark wd-text-white"></i>
+                    <span class="wd-text-white">Bookmarks </span>
+                </a>
+                <a href="#" class="list-group-item-action list-group-item-info bg-black list-group-item wd-text-white">
+                    <i class="fas fa-list wd-text-white"></i>
+                    <span class="wd-text-white">Lists </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black wd-text-white">
+                    <i class="fas fa-user wd-text-white"></i>
+                    <span class="wd-text-white">Profile </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black wd-text-white">
+                    <i class="fas fa-minus-circle wd-text-white"></i>
+                    <span class="wd-text-white">More </span>
+                </a>
+            </div>
+            <div class="list-group d-lg-none wd-text-white">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black" aria-current="true">
+                    <i class="fab fa-twitter fa-2x wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fa fa-home wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fa fa-hashtag wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fa fa-bell wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fa fa-envelope wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fa fa-bookmark wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fas fa-list wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fas fa-user wd-text-white"></i>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info bg-black">
+                    <i class="fas fa-minus-circle  wd-text-white"></i>
+                </a>
+            </div>
+            <div class="row pt-3 pe-2">
+                <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill">Tuit</button>
+            </div>
         </div>
-        <div id="tuiter-explore-feed-center" class="col-lg-7 flex-container-flex-center bg-dark">
-            <div class="d-flex bg-dark">
-                <div class="input-group mb-3 wd-border-radius wd-background-white bg-dark">
-                    <span class="input-group-text wd-background-white bg-dark rounded-pill"><i class="fas fa-search wd-background-white bg-dark" style="color:darkgray;"></i></span>
-                    <input type="text" class="form-control wd-border-radius wd-background-white bg-dark rounded-pill">
+        <div id="tuiter-explore-feed-center" class="col-9 col-lg-6 col-xl-6 bg-dark">
+            <div class="row bg-dark">
+                <div class="col-10 wd-center-icons">
+                <i class="fas fa-search wd-icon-dark-model"></i>
+                <input type="text" class="wd-search-box-dark-mode wd-input-field"
+                       placeholder="Search Tuiter"/>
+                </span>
                 </div>
-                <div id="settings-icon" style="padding-top: 5px;padding-left: 1%">
-                    <link href="settings.html" style="color:dodgerblue"><i class="fas fa-cog"></i><link>
+                <div class="col-2">
+                    <a href="settings.html"><i class="fas fa-cog wd-settings-icon-dark-mode fa-2x pt-1"></i></a>
                 </div>
             </div>
-            <div class="wd-tab">
+            <div class="row wd-tab">
                  <ul class="nav nav-tabs">
                     <li class="nav-item" style="color: darkgray">
                         <a class="nav-link" href="#" style="color: darkgray">For you</a>
