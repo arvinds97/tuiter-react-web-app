@@ -19,7 +19,7 @@ const PostSummaryItem = (post) => {
                                 </div>
                             </div>
                             <div class="col-2">
-                                <img src=${post.image} width="70" height="60"  style="padding-top: 10%;padding-left: 20%">
+                                <img src=${post.image} width="70" height="60"  style="padding-top: 10%;padding-left: 10%;padding-right: 10%">
                             </div>
                         </div>
                     </li>

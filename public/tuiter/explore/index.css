@@ -60,3 +60,36 @@
     padding-top: 0.50%;
     color: darkgrey;
 }
+
+.wd-image-style {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.wd-icon-dark-mode {
+    color: white;
+}
+
+.wd-user-handle {
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-image {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wd-text-bold {
+    font-weight: bold;
+}
+
+.wd-icon-grey {
+    padding: 10px;
+    min-width: 40px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-hyperlink-grey {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
