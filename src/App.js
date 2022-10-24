@@ -11,7 +11,7 @@ import Labs from "./labs";
       <BrowserRouter>
           <div className="container">
               <Routes>
-                  <Route path="/labs"
+                  <Route index
                          element={<Labs/>}/>
                   <Route path="/hello"
                          element={<HelloWorld/>}/>
