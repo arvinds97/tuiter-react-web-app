@@ -12,7 +12,6 @@ function Labs() {
                      element={<Assignment6/>}/>
               <Route path="a7" element={<Assignment7/>}/>
           </Routes>
-          <Assignment6/>
       </div>
     );
 }
