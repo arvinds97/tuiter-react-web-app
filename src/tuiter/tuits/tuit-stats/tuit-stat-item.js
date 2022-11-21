@@ -1,6 +1,5 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {likeTuit} from "../tuits-reducer";
 import {updateTuitThunk} from "../../../services/tuits-thunks";
 
 const TuitStatItem = ({post}) => {
