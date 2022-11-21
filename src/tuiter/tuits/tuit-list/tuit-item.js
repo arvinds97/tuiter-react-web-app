@@ -22,7 +22,7 @@ const TuitItem = (
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
     }
-    console.log(post)
+    console.log(post.userName + '')
     return(
         <li className="list-group-item">
             <div className="row">
