@@ -12,7 +12,11 @@ const WhatsHappening = () => {
             image: "nasa.png",
             username: "NASA",
             handle: "@nasa",
-            time: "2h"
+            time: "2h",
+            liked: true,
+            likes: 2345,
+            replies: 123,
+            retuits: 432
         }
         console.log(newTuit);
         dispatch(createTuitThunk(newTuit));
