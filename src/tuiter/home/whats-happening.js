@@ -11,6 +11,7 @@ const WhatsHappening = () => {
             tuit: whatsHappening,
             image: "nasa.png"
         }
+        console.log(newTuit);
         dispatch(createTuitThunk(newTuit));
     }
     return (
