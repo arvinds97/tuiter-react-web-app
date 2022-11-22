@@ -22,7 +22,7 @@ const TuitItem = (
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
     }
-    console.log(post)
+    console.log("post", post)
     return(
         <li className="list-group-item">
             <div className="row">
@@ -32,7 +32,7 @@ const TuitItem = (
                 <div className="col-11">
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(post._id)}></i>
-                    <span className="fw-bolder">{post.userName}</span>
+                    <span className="fw-bolder">{post.username}</span>
                     <span className="fas fa-check-circle ps-1"></span>
                     <span className="ps-1">{post.handle} . {post.time}</span>
                     <div>{post.tuit}</div>
