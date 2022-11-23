@@ -82,6 +82,12 @@ const tuitsSlice = createSlice({
                 post._id === action.payload._id)
             console.log(post)
             post.liked = !post.liked
+        },
+        dislikeToggle(state, action) {
+            const post = state.find((post) =>
+                post._id === action.payload._id)
+            console.log(post)
+            post.disliked = !post.disliked
         }
     }
 });
