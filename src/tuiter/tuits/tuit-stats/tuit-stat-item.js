@@ -40,7 +40,7 @@ const TuitStatItem = ({post}) => {
                 <span className= "ps-4">
                     <span className={`ps-2 pe-1 small ${post.disliked? 'text-danger fa-solid fa-thumbs-down' :'fa-regular fa-thumbs-down'}`}
                           onClick={() => {dislikeToggleHandler(post._id)}}></span>
-                {post.dislikes}</span>
+                        {post.dislikes}</span>
                 </span>
             <span className="col">
                     <span className="ps-4 fa fa-share-alt"></span>
