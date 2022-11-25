@@ -19,8 +19,8 @@ const PostSummaryItem = (
                     </div>
                     <span>
                         <div className="fw-bolder">{post.userName}<i className="bi bi-patch-check-fill wd-post-summary-spacing"></i>
-                    </span>
                     </div>
+                    </span>
                     <div>{post.title}</div>
                 </div>
                 <div className="col-2">
