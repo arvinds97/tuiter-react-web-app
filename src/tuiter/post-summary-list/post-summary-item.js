@@ -17,7 +17,9 @@ const PostSummaryItem = (
                     <div className="wd-grey-text">
                         {post.topic} - {post.time}
                     </div>
-                    <div className="fw-bolder">{post.userName}<i className="bi bi-patch-check-fill wd-post-summary-spacing"></i>
+                    <span>
+                        <div className="fw-bolder">{post.userName}<i className="bi bi-patch-check-fill wd-post-summary-spacing"></i>
+                    </span>
                     </div>
                     <div>{post.title}</div>
                 </div>
